@@ -1,12 +1,12 @@
-import memeIcon from './3-2-troll-face-meme-png.png';
+import memeIcon from './troll-face.png';
 
 const Header = () => {
     return (
-        <nav>
-            <img className='meme-icon' src={memeIcon} alt=""/>
-            <h1>Meme Generator</h1>
-            <h2>React Course - Project 3</h2>
-        </nav>
+        <header>
+            <img className='header--icon' src={memeIcon} alt=""/>
+            <h2 className='header--title'>Meme Generator</h2>
+            <h2 className='header--project'>React Course - Project 3</h2>
+        </header>
     )
 }
 
