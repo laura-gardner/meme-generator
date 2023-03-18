@@ -11,6 +11,7 @@
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: white;
     padding: 1.2rem;
+    width: 550px;
 }
 
 .header--icon {
@@ -30,4 +31,30 @@
     font-size: 0.75rem;
     font-weight: 500;
     text-align: right;
+}
+
+.meme {
+    padding: 36px;
+}
+
+.meme--form { 
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.meme--input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.meme--button {
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    grid-column: 1 / -1;
 }
