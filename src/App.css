@@ -1,17 +1,19 @@
 * {
-    font-family: Karla, sans-serif;
     box-sizing: border-box;
+    font-family: Karla, sans-serif;
+}
+
+body {
+    margin: 0;
 }
 
 .header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 4rem;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: white;
     padding: 1.2rem;
-    width: 550px;
 }
 
 .header--icon {
@@ -57,4 +59,9 @@
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border-radius: 5px;
     grid-column: 1 / -1;
+}
+
+.meme--image {
+    margin-top: 1rem;
+    max-width: 100%;
 }
