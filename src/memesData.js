@@ -1,7 +1,7 @@
 export default {
     "success": true,
     "data": {
-        "memes": [
+    "memes": [
             {
                 "id": "181913649",
                 "name": "Drake Hotline Bling",
